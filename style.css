@@ -1,0 +1,33 @@
+h1{
+    font-family: Verdana;
+    font-size: xx-large;
+    font: bold;
+    color: #004aad ;
+}
+.grid{
+    display: grid;
+    /*grid-template-columns: repeat(4,1fr);*/
+    grid-template-columns: 120px 120px 120px 120px;
+    grid-template-rows: 120px 120px 120px;
+}
+figure.cards{
+    position: relative;
+    margin: auto;
+    height: 50;
+}
+h2,h3{
+    font-family: Verdana;
+    font-size: large;
+    font: bold;
+    color: #004aad ;
+}
+#buttonStart{
+    height: 40px;
+    width: 100px;
+    background-color: #38b6ff;
+    color: #004aad ;
+    font: bold;
+    border-radius: 8ex;
+}
+
+
